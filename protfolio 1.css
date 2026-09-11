@@ -1,0 +1,87 @@
+body{
+   background-image: url("https://img.magnific.com/free-vector/paper-style-dynamic-lines-background_23-2149008629.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   color:aqua;
+}
+.color{
+   background:linear-gradient(to right,aqua,rgb(249, 126, 241),rgb(229, 20, 229),rgb(104, 186, 219));
+   background-clip: text;
+   -webkit-text-fill-color: transparent;
+   font-size: 50px;
+}
+.text-animation{
+   animation: slideIn 2s ease-in-out;
+}
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translatey(-100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.image-animation {
+    animation: floating 3s ease-in-out infinite;
+}
+
+@keyframes floating {
+
+    50% {
+        transform: translatex(15px);
+    }
+
+    100% {
+        transform: translatex(-20px);
+    }
+}
+.bi-file-earmark-person{
+    color:aqua;
+    font-size: 30px;
+    margin-left:220px;
+}
+.bi-chat-heart{
+   color:aqua;
+   font-size: 30px;
+   margin:20px; 
+}
+.bi-book{
+   color:aqua;
+   font-size: 30px;
+   margin:1px;
+}
+.bi-cast{
+    color:aqua;
+   font-size: 30px;
+   margin:15px;
+}
+.about-page {
+    background-image: none;
+    background: linear-gradient(to right, black,rgb(225, 161, 239), black);
+}
+.aboutme{
+    margin-top: 150px;
+    margin-left: -150px;
+    background: linear-gradient(to right,rgb(220, 7, 199),green,white);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+   animation: gradientMove 3s linear infinite;
+}
+@keyframes gradientMove {
+    from{
+        background-position: 0%;
+    }
+    to{
+        background-position: 400%;
+    }
+}
+.skills-page {
+     background-image: none;
+    /* background:linear-gradient(to right,#b0afd5,#fff1c5,#dbc6b3,#ffffd6,#c6b5b8,#b7acc4); */
+    background:conic-gradient(from 90deg, #d4dec7 0.000deg, #d4dec7 27.692deg, #c2cdbe calc(27.692deg + 0.1deg), #c2cdbe 55.385deg, #b1bcb5 calc(55.385deg + 0.1deg), #b1bcb5 83.077deg, #a0abac calc(83.077deg + 0.1deg), #a0abac 110.769deg, #8f9ba3 calc(110.769deg + 0.1deg), #8f9ba3 138.462deg, #808b9b calc(138.462deg + 0.1deg), #808b9b 166.154deg, #717d93 calc(166.154deg + 0.1deg), #717d93 193.846deg, #64708b calc(193.846deg + 0.1deg), #64708b 221.538deg, #596483 calc(221.538deg + 0.1deg), #596483 249.231deg, #4f597c calc(249.231deg + 0.1deg), #4f597c 276.923deg, #475075 calc(276.923deg + 0.1deg), #475075 304.615deg, #40486e calc(304.615deg + 0.1deg), #40486e 332.308deg, #3c4268 calc(332.308deg + 0.1deg) 360.000deg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
