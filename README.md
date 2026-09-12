@@ -1,1 +1,1 @@
-<a href="https://github.com/Thaif-Shaffeeqahmed/protfolio 1.html">portfolio</a>
+<a href="https://myprotfolio.edgeone.dev/#">portfolio</a>
